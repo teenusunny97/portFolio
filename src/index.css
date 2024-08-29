@@ -106,20 +106,13 @@ transition: 0.4s ease-in-out;
   #mobile{
     right:60px;
   }
-  .contact-container{
+  /* .contact-container{
     display:block !important;
-  }
-  .contact-section{
-    padding:20px;
-  }
+  } */
+  
   
 }
-@media screen and (min-width:670px) and (max-width:1000px){
-  .contact-section{
-    padding-right:2rem;
-    display:block !important;
-  }
-}
+
 
 #body-content{
   margin-top: 10rem;
@@ -162,10 +155,10 @@ transition: 0.4s ease-in-out;
   text-align: center;
   min-width: 15rem;
 }
-.container{
+/* .container{
   display:grid;
   grid-template-columns: auto auto auto auto;
-}
+} */
 .item{
   padding:20px;
   
@@ -175,8 +168,12 @@ transition: 0.4s ease-in-out;
     width: 5rem;
 }
 .contact-section{
-  display:flex;
   padding-top:2rem;
+}
+@media screen and (max-width:400px){
+  .contact-section a,p{
+    font-size:12px;
+  }
 }
 .contact-icon{
   border-radius: 50%;
@@ -192,10 +189,10 @@ transition: 0.4s ease-in-out;
 .pl-3{
   padding-left: 3rem;
 }
-.contact-container{
+/* .contact-container{
   display:grid;
   grid-template-columns: auto auto auto
-}
+} */
 .contact-linkedIn{
   text-decoration: none;
 }

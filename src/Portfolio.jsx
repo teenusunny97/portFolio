@@ -61,21 +61,24 @@ const Portfolio=()=>{
     <section id="skills">
     <h1 className="body-titles">Skills</h1>
     <div className="container">
-              <div className="item"><img src="images/react.png"/></div>
-              <div className="item"><img src="images/bootstrap.svg"/></div>
-              <div className="item"><img src="images/html5.png"/></div>
-              <div className="item"><img src="images/css3.svg"/></div>
-              <div className="item"><img src="images/javascript.png"/></div>
-              <div className="item"><img src="images/redux.png"/></div>
-              <div className="item"><img src="images/git.png"/></div>
+        <div className="row">
+              <div className="item col-md-3 col-6"><img src="images/react.png"/></div>
+              <div className="item  col-md-3 col-6"><img src="images/bootstrap.svg"/></div>
+              <div className="item  col-md-3 col-6"><img src="images/html5.png"/></div>
+              <div className="item  col-md-3 col-6"><img src="images/css3.svg"/></div>
+              <div className="item  col-md-3 col-6"><img src="images/javascript.png"/></div>
+              <div className="item  col-md-3 col-6"><img src="images/redux.png"/></div>
+              <div className="item  col-md-3 col-6"><img src="images/git.png"/></div>
+              </div>
              
 
     </div>
         </section>
         <section id="contact">
         <h1 className="body-titles">Contact Me</h1>
-        <div className="contact-container">
-        <div className="contact-section">
+        <div className="container">
+            <div className="row">
+        <div className="contact-section col-md-4 col-12">
             
             <i className="fa-solid fa-location-dot contact-icon"></i>
             <span className="pl-3" >
@@ -86,7 +89,7 @@ const Portfolio=()=>{
                     </span>
             
         </div>
-        <div className="contact-section">
+        <div className="contact-section col-md-4 col-12">
             
             <i className="fa-solid fa-phone contact-icon"></i>
             <span className="pl-3" >
@@ -95,7 +98,7 @@ const Portfolio=()=>{
                     </span>
             
         </div>
-        <div className="contact-section">
+        <div className="contact-section col-md-4 col-12">
             
             <i className="fa-regular fa-envelope contact-icon"></i>
             <span className="pl-3" >
@@ -104,7 +107,7 @@ const Portfolio=()=>{
                     </span>
             
         </div>
-        <div className="contact-section">
+        <div className="contact-section col-md-12 col-12">
             
             <i className="fa-brands fa-linkedin-in contact-icon"></i>
             <span className="pl-3" >
@@ -112,6 +115,7 @@ const Portfolio=()=>{
                 <a  className="contact-linkedIn" href="https://www.linkedin.com/in/teenusunny" target="_blank">https://www.linkedin.com/in/teenusunny</a>
                     </span>
             
+        </div>
         </div>
         </div>
         </section>

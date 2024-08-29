@@ -44,7 +44,7 @@ const Portfolio=()=>{
           A Frontend Developer
           </h1> 
          
-   <div className="home-buttons">
+   <div className="home-buttons d-flex flex-wrap justify-content-start">
     <a className="button" href="#contact">Contact</a>
     <a className="button" href="resume.pdf" download>Download CV</a>
     <a href="https://www.linkedin.com/in/teenusunny" target="_blank"><i className="fa-brands fa-linkedin-in home-icons"></i></a>

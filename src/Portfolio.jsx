@@ -35,6 +35,7 @@ const Portfolio=()=>{
 
             </nav>
             <div id="body-content">
+            
             <section id="home">
            <h1 className="home-content">    
           Hi,
@@ -43,13 +44,19 @@ const Portfolio=()=>{
           <br/>
           A Frontend Developer
           </h1> 
-         
+          <div className="img-box">
+             <img src={`${process.env.PUBLIC_URL}/images/pattern.png`} className="back-img"/>
+             <img src={`${process.env.PUBLIC_URL}/images/teenuphoto.png`} className="main-img"/>
+             </div>
    <div className="home-buttons d-flex flex-wrap justify-content-start">
     <a className="button" href="#contact">Contact</a>
     <a className="button" href="resume.pdf" download>Download CV</a>
     <a href="https://www.linkedin.com/in/teenusunny" target="_blank"><i className="fa-brands fa-linkedin-in home-icons"></i></a>
-    <a><i className="fa-brands fa-github home-icons"></i></a>
+    <a href="https://github.com/teenusunny97" target="_blank"><i className="fa-brands fa-github home-icons"></i></a>
+    
     </div>
+   
+    
     </section>
     <section id="about">
              <h1 className="body-titles">About Me</h1>
@@ -62,18 +69,21 @@ const Portfolio=()=>{
     <h1 className="body-titles">Skills</h1>
     <div className="container">
         <div className="row">
-              <div className="item col-md-3 col-6"><img src="images/react.png"/></div>
-              <div className="item  col-md-3 col-6"><img src="images/bootstrap.svg"/></div>
-              <div className="item  col-md-3 col-6"><img src="images/html5.png"/></div>
-              <div className="item  col-md-3 col-6"><img src="images/css3.svg"/></div>
-              <div className="item  col-md-3 col-6"><img src="images/javascript.png"/></div>
-              <div className="item  col-md-3 col-6"><img src="images/redux.png"/></div>
-              <div className="item  col-md-3 col-6"><img src="images/git.png"/></div>
+              <div className="item col-md-3 col-6"><img src={`${process.env.PUBLIC_URL}/images/react.png`}/></div>
+              <div className="item  col-md-3 col-6"><img src={`${process.env.PUBLIC_URL}/images/bootstrap.png`}/></div>
+              <div className="item  col-md-3 col-6"><img src={`${process.env.PUBLIC_URL}/images/html5.png`}/></div>
+              <div className="item  col-md-3 col-6"><img src={`${process.env.PUBLIC_URL}/images/css3.png`}/></div>
+              <div className="item  col-md-3 col-6"><img src={`${process.env.PUBLIC_URL}/images/javascript.png`}/></div>
+              <div className="item  col-md-3 col-6"><img src={`${process.env.PUBLIC_URL}/images/redux.png`}/></div>
+              <div className="item  col-md-3 col-6"><img src={`${process.env.PUBLIC_URL}/images/git.png`}/></div>
               </div>
              
 
     </div>
         </section>
+        {/* <section id="work">
+        <h1 className="body-titles">Work</h1>
+        </section> */}
         <section id="contact">
         <h1 className="body-titles">Contact Me</h1>
         <div className="container">
@@ -120,7 +130,7 @@ const Portfolio=()=>{
         </div>
         </section>
     </div>
-    <div class="footer"></div>
+    <div className="footer"></div>
     </>
    
     )

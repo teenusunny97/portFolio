@@ -110,6 +110,34 @@ transition: 0.4s ease-in-out;
   margin-left: 15%;
   margin-right: 15%;
 }
+.img-box{
+  width: 45%;
+  position: relative;
+  z-index: -99;
+}
+.back-img{
+  height: 100%;
+  width: 75%;
+  transition: bottom 1s;
+}
+.main-img{
+  height:80%;
+  width: 60%;
+  position: absolute;
+  left: 1rem;
+  top: 1rem;
+
+}
+.img-box:hover .back-img{
+  bottom:40px;
+}
+#home{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .home-content{
   font-size: 3rem;
 }
@@ -154,6 +182,8 @@ transition: 0.4s ease-in-out;
 .container .item img{
   height: 4rem;
     width: 5rem;
+    object-fit: contain;
+
 }
 .contact-section{
   padding-top:2rem;
@@ -182,4 +212,10 @@ transition: 0.4s ease-in-out;
 
 .contact-linkedIn{
   text-decoration: none;
+}
+.footer{
+  background-color: #04063e;
+    height: 2rem;
+    width: 100%;
+    margin-top: 2rem;
 }
